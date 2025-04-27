@@ -1,0 +1,43 @@
+[
+    {
+      "id": 1,
+      "fullName": "Aarav Mehta",
+      "phone": "+91 90000 00001",
+      "driverAddress": "123 Greenway Blvd",
+      "email": "alicej@gmail.com",
+      "status": "Approved"
+    },
+    {
+      "id": 2,
+      "fullName": "Bhavna Kapoor",
+      "phone": "+91 90000 00002",
+      "driverAddress": "456 Maple Ave",
+      "email": "bobsmith@gmail.com",
+      "status": "Approved"
+    },
+    {
+      "id": 3,
+      "fullName": "Chetan Reddy",
+      "phone": "+91 90000 00003",
+      "driverAddress": "789 Hilltop Dr",
+      "email": "carolwhite@gmail.com",
+      "status": "Approved"
+    },
+    {
+      "id": 4,
+      "fullName": "Deepika Sharma",
+      "phone": "+91 90000 00004",
+      "driverAddress": "321 Lakeside St",
+      "email": "davidbrown@gmail.com",
+      "status": "Approved"
+    },
+    {
+      "id": 5,
+      "fullName": "Eshan Verma",
+      "phone": "+91 90000 00005",
+      "driverAddress": "654 Willow Rd",
+      "email": "evagreen@gmail.com",
+      "status": "Approved"
+    }
+  ]
+  

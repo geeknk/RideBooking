@@ -30,7 +30,7 @@ export default function Vendors(props: any) {
 
   //All CellRendering............
   const nameCellRender = (params: any) => (
-    <Link href={`/vendordetails`} style={{ textDecoration: "none" }}>
+    <Link href={`/drivers`} style={{ textDecoration: "none" }}>
       <span>{params.value}</span>
     </Link>
   );
