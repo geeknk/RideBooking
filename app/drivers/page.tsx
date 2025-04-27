@@ -3,6 +3,7 @@ import { DataGrid } from "@mui/x-data-grid";
 import { makeStyles } from "@mui/styles";
 import driversRow from "../../mock-data/venders.json";
 import Link from "next/link";
+import AdminLayout from "../(admin)/layout";
 const useStyles = makeStyles({
   row: {
     "&:nth-of-type(even)": {
@@ -86,20 +87,22 @@ export default function Drivers(props: any) {
     },
   ];
   return (
-    <DataGrid
-      autoHeight
-      {...props}
-      rows={driversRow.filter((row) => row.status === "Approved")}
-      columns={vendorsColumn}
-      classes={{ row: classes.row, root: classes.root }}
-      rowsPerPageOptions={[10]}
-      initialState={{
-        pagination: {
-          paginationModel: {
-            pageSize: 10,
+    <AdminLayout>
+      <DataGrid
+        autoHeight
+        {...props}
+        rows={driversRow.filter((row) => row.status === "Approved")}
+        columns={vendorsColumn}
+        classes={{ row: classes.row, root: classes.root }}
+        rowsPerPageOptions={[10]}
+        initialState={{
+          pagination: {
+            paginationModel: {
+              pageSize: 10,
+            },
           },
-        },
-      }}
-    />
+        }}
+      />
+    </AdminLayout>
   );
 }
